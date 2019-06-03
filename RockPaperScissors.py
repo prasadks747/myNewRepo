@@ -12,6 +12,8 @@ game_die = {'rock':1, 'paper':2, 'scissors':3}
 print(u1_ans, u2_ans)
 print(game_die.get(str(u1_ans).lower ), game_die.get(str(u2_ans).lower))
 
+#print(compare(u1_ans, u2_ans))
+
 def compare(u1, u2):
     if u1 == u2:
         return("It's a TIE.")
@@ -34,4 +36,3 @@ def compare(u1, u2):
         return("Invalid Inpur.")
 
 print(compare(u1_ans, u2_ans))
-

@@ -9,4 +9,6 @@ ip = input("Enter Name:")
 Z = 4    
 print((x+Y+",")*Z)
 print(ip * Z)
+print( ip[0], ip.index("d"))
+
 # Home End -all-
